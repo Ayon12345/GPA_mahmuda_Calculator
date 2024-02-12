@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TextView and EditText for Course 1 -->
+    <TextView
+        android:id="@+id/textViewCourse1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 1"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextCourse1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCourse1"
+        app:layout_constraintTop_toTopOf="@+id/textViewCourse1" />
+
+    <!-- TextView and EditText for Grade 1 -->
+    <TextView
+        android:id="@+id/textViewGrade1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade 1"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCourse1"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrade1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewGrade1"
+        app:layout_constraintTop_toTopOf="@+id/textViewGrade1" />
+
+    <!-- TextView and EditText for Course 2 -->
+    <TextView
+        android:id="@+id/textViewCourse2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 2"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGrade1"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourse2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCourse2"
+        app:layout_constraintTop_toTopOf="@+id/textViewCourse2" />
+
+    <!-- TextView and EditText for Grade 2 -->
+    <TextView
+        android:id="@+id/textViewGrade2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade 2"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCourse2"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrade2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewGrade2"
+        app:layout_constraintTop_toTopOf="@+id/textViewGrade2" />
+
+    <!-- TextView and EditText for Course 3 -->
+    <TextView
+        android:id="@+id/textViewCourse3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 3"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGrade2"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourse3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCourse3"
+        app:layout_constraintTop_toTopOf="@+id/textViewCourse3" />
+
+    <!-- TextView and EditText for Grade 3 -->
+    <TextView
+        android:id="@+id/textViewGrade3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade 3"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCourse3"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrade3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewGrade3"
+        app:layout_constraintTop_toTopOf="@+id/textViewGrade3" />
+
+    <!-- TextView and EditText for Course 4 -->
+    <TextView
+        android:id="@+id/textViewCourse4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 4"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGrade3"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourse4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCourse4"
+        app:layout_constraintTop_toTopOf="@+id/textViewCourse4" />
+
+    <!-- TextView and EditText for Grade 4 -->
+    <TextView
+        android:id="@+id/textViewGrade4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade 4"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCourse4"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrade4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewGrade4"
+        app:layout_constraintTop_toTopOf="@+id/textViewGrade4" />
+
+    <!-- TextView and EditText for Course 5 -->
+    <TextView
+        android:id="@+id/textViewCourse5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course 5"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGrade4"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/editTextCourse5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCourse5"
+        app:layout_constraintTop_toTopOf="@+id/textViewCourse5" />
+
+    <!-- TextView and EditText for Grade 5 -->
+    <TextView
+        android:id="@+id/textViewGrade5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade 5"
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCourse5"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextGrade5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewGrade5"
+        app:layout_constraintTop_toTopOf="@+id/textViewGrade5" />
+
+    <!-- Button to compute GPA -->
+    <Button
+        android:id="@+id/buttonComputeGPA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Compute GPA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextGrade5"
+        android:layout_marginTop="24dp"/>
+
+    <!-- TextView to display calculated GPA -->
+    <TextView
+        android:id="@+id/textViewGPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPA: "
+        android:textAppearance="?android:textAppearanceMedium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonComputeGPA"
+        android:layout_marginTop="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
